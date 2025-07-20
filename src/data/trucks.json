@@ -1,0 +1,218 @@
+[
+  {
+    "id": "truck-1a2b3c",
+    "manufacturer": "Volvo",
+    "model": "FH16 750",
+    "axle_config": "6x4",
+    "has_counterweight": true,
+    "has_kingpin": true,
+    "engine_power_hp": 750,
+    "tare_t": 9.8,
+    "max_gtw_t": 180,
+    "wheelbase_m": 3.9,
+    "cab_type": "sleeper",
+    "img": "https://placehold.co/1600x900?text=Volvo+FH16",
+    "front_tires": {
+      "width_mm": 385,
+      "aspect_ratio": 65,
+      "rim_size_inch": 22.5,
+      "label": "385/65R22.5"
+    },
+    "rear_tires": {
+      "width_mm": 315,
+      "aspect_ratio": 80,
+      "rim_size_inch": 22.5,
+      "label": "315/80R22.5"
+    },
+    "notes": "Heavy duty tractor with high power output"
+  },
+  {
+    "id": "truck-2b3c4d",
+    "manufacturer": "MAN",
+    "model": "TGX 41.680",
+    "axle_config": "8x4",
+    "has_counterweight": true,
+    "has_kingpin": true,
+    "engine_power_hp": 680,
+    "tare_t": 11.2,
+    "max_gtw_t": 250,
+    "wheelbase_m": 4.2,
+    "cab_type": "sleeper",
+    "img": "https://placehold.co/1600x900?text=MAN+TGX",
+    "front_tires": {
+      "width_mm": 385,
+      "aspect_ratio": 65,
+      "rim_size_inch": 22.5,
+      "label": "385/65R22.5"
+    },
+    "rear_tires": {
+      "width_mm": 315,
+      "aspect_ratio": 80,
+      "rim_size_inch": 22.5,
+      "label": "315/80R22.5"
+    },
+    "notes": "Heavy-duty tractor for extreme loads"
+  },
+  {
+    "id": "truck-3c4d5e",
+    "manufacturer": "Mercedes-Benz",
+    "model": "Actros 2663",
+    "axle_config": "6x4",
+    "has_counterweight": false,
+    "has_kingpin": true,
+    "engine_power_hp": 630,
+    "tare_t": 9.4,
+    "max_gtw_t": 180,
+    "wheelbase_m": 3.7,
+    "cab_type": "sleeper",
+    "img": "https://placehold.co/1600x900?text=Mercedes+Actros",
+    "front_tires": {
+      "width_mm": 385,
+      "aspect_ratio": 65,
+      "rim_size_inch": 22.5,
+      "label": "385/65R22.5"
+    },
+    "rear_tires": {
+      "width_mm": 315,
+      "aspect_ratio": 70,
+      "rim_size_inch": 22.5,
+      "label": "315/70R22.5"
+    },
+    "notes": "Premium heavy-duty tractor with advanced tech"
+  },
+  {
+    "id": "truck-4d5e6f",
+    "manufacturer": "Scania",
+    "model": "R730",
+    "axle_config": "8x4",
+    "has_counterweight": true,
+    "has_kingpin": true,
+    "engine_power_hp": 730,
+    "tare_t": 10.8,
+    "max_gtw_t": 250,
+    "wheelbase_m": 4.1,
+    "cab_type": "sleeper",
+    "img": "https://placehold.co/1600x900?text=Scania+R730",
+    "front_tires": {
+      "width_mm": 385,
+      "aspect_ratio": 65,
+      "rim_size_inch": 22.5,
+      "label": "385/65R22.5"
+    },
+    "rear_tires": {
+      "width_mm": 325,
+      "aspect_ratio": 95,
+      "rim_size_inch": 24,
+      "label": "325/95R24"
+    },
+    "notes": "Heavy-duty tractor with V8 engine"
+  },
+  {
+    "id": "truck-5e6f7g",
+    "manufacturer": "DAF",
+    "model": "XF 530",
+    "axle_config": "4x2",
+    "has_counterweight": false,
+    "has_kingpin": true,
+    "engine_power_hp": 530,
+    "tare_t": 7.8,
+    "max_gtw_t": 120,
+    "wheelbase_m": 3.8,
+    "cab_type": "day",
+    "img": "https://placehold.co/1600x900?text=DAF+XF",
+    "front_tires": {
+      "width_mm": 355,
+      "aspect_ratio": 50,
+      "rim_size_inch": 22.5,
+      "label": "355/50R22.5"
+    },
+    "rear_tires": {
+      "width_mm": 315,
+      "aspect_ratio": 70,
+      "rim_size_inch": 22.5,
+      "label": "315/70R22.5"
+    },
+    "notes": "Standard tractor for regular heavy loads"
+  },
+  {
+    "id": "truck-6f7g8h",
+    "manufacturer": "Iveco",
+    "model": "Trakker 500",
+    "axle_config": "8x6",
+    "has_counterweight": true,
+    "has_kingpin": false,
+    "engine_power_hp": 500,
+    "tare_t": 12.5,
+    "max_gtw_t": 210,
+    "wheelbase_m": 4.5,
+    "cab_type": "day",
+    "img": "https://placehold.co/1600x900?text=Iveco+Trakker",
+    "front_tires": {
+      "width_mm": 385,
+      "aspect_ratio": 65,
+      "rim_size_inch": 22.5,
+      "label": "385/65R22.5"
+    },
+    "rear_tires": {
+      "width_mm": 315,
+      "aspect_ratio": 80,
+      "rim_size_inch": 22.5,
+      "label": "315/80R22.5"
+    },
+    "notes": "All-terrain heavy duty truck with high traction"
+  },
+  {
+    "id": "truck-7g8h9i",
+    "manufacturer": "Renault",
+    "model": "T High 520",
+    "axle_config": "6x2",
+    "has_counterweight": false,
+    "has_kingpin": true,
+    "engine_power_hp": 520,
+    "tare_t": 8.9,
+    "max_gtw_t": 150,
+    "wheelbase_m": 3.8,
+    "cab_type": "sleeper",
+    "img": "https://placehold.co/1600x900?text=Renault+T+High",
+    "front_tires": {
+      "width_mm": 355,
+      "aspect_ratio": 50,
+      "rim_size_inch": 22.5,
+      "label": "355/50R22.5"
+    },
+    "rear_tires": {
+      "width_mm": 315,
+      "aspect_ratio": 70,
+      "rim_size_inch": 22.5,
+      "label": "315/70R22.5"
+    },
+    "notes": "Efficient long-haul tractor with high comfort"
+  },
+  {
+    "id": "truck-8h9i0j",
+    "manufacturer": "Volvo",
+    "model": "FMX 540",
+    "axle_config": "8x4",
+    "has_counterweight": true,
+    "has_kingpin": false,
+    "engine_power_hp": 540,
+    "tare_t": 11.2,
+    "max_gtw_t": 180,
+    "wheelbase_m": 4.6,
+    "cab_type": "day",
+    "img": "https://placehold.co/1600x900?text=Volvo+FMX",
+    "front_tires": {
+      "width_mm": 385,
+      "aspect_ratio": 65,
+      "rim_size_inch": 22.5,
+      "label": "385/65R22.5"
+    },
+    "rear_tires": {
+      "width_mm": 325,
+      "aspect_ratio": 95,
+      "rim_size_inch": 24,
+      "label": "325/95R24"
+    },
+    "notes": "Heavy-duty construction truck with high ground clearance"
+  }
+]

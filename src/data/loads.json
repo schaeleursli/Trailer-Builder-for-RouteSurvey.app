@@ -1,0 +1,58 @@
+[
+  {
+    "id": "load-001",
+    "load_type": "container",
+    "cargo_weight": 20,
+    "cargo_axle_weights": [5, 5, 5, 5],
+    "cargo_length": 12,
+    "cargo_width": 2.5,
+    "cargo_height": 2.6,
+    "cargo_cg_chainage": 6,
+    "cargo_cg_offset": 0,
+    "load_securing": "chains",
+    "dynamic_factor": 1.2,
+    "permitted_envelope_ref": "standard"
+  },
+  {
+    "id": "load-002",
+    "load_type": "machinery",
+    "cargo_weight": 35,
+    "cargo_axle_weights": [10, 15, 10],
+    "cargo_length": 8,
+    "cargo_width": 3.2,
+    "cargo_height": 3.5,
+    "cargo_cg_chainage": 4.5,
+    "cargo_cg_offset": 0.3,
+    "load_securing": "chains_and_straps",
+    "dynamic_factor": 1.5,
+    "permitted_envelope_ref": "oversize"
+  },
+  {
+    "id": "load-003",
+    "load_type": "construction",
+    "cargo_weight": 28,
+    "cargo_axle_weights": [7, 7, 7, 7],
+    "cargo_length": 15,
+    "cargo_width": 3.0,
+    "cargo_height": 2.8,
+    "cargo_cg_chainage": 7.5,
+    "cargo_cg_offset": -0.2,
+    "load_securing": "chains",
+    "dynamic_factor": 1.3,
+    "permitted_envelope_ref": "standard"
+  },
+  {
+    "id": "load-004",
+    "load_type": "bulk",
+    "cargo_weight": 25,
+    "cargo_axle_weights": [6, 7, 6, 6],
+    "cargo_length": 10,
+    "cargo_width": 2.4,
+    "cargo_height": 2.2,
+    "cargo_cg_chainage": 5,
+    "cargo_cg_offset": 0,
+    "load_securing": "straps",
+    "dynamic_factor": 1.1,
+    "permitted_envelope_ref": "standard"
+  }
+]

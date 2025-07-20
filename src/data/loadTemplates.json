@@ -1,0 +1,94 @@
+[
+  {
+    "id": "load-container-20ft",
+    "category": "container",
+    "weight": 24,
+    "dims": { "length": 6.1, "width": 2.44, "height": 2.59 },
+    "cg": { "chainage": 3.05, "offset": 0 },
+    "securing": "chains",
+    "dynamicFactor": 1.2,
+    "envelopeRef": "standard",
+    "notes": "Standard 20ft shipping container"
+  },
+  {
+    "id": "load-container-40ft",
+    "category": "container",
+    "weight": 30,
+    "dims": { "length": 12.2, "width": 2.44, "height": 2.59 },
+    "cg": { "chainage": 6.1, "offset": 0 },
+    "securing": "chains",
+    "dynamicFactor": 1.2,
+    "envelopeRef": "standard",
+    "notes": "Standard 40ft shipping container"
+  },
+  {
+    "id": "load-blade",
+    "category": "blade",
+    "weight": 15,
+    "dims": { "length": 60, "width": 4, "height": 3 },
+    "cg": { "chainage": 20, "offset": 0 },
+    "securing": "custom",
+    "dynamicFactor": 1.8,
+    "envelopeRef": "oversize",
+    "notes": "Wind turbine blade",
+    "shapeSvg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M10,50 Q25,30 50,25 T90,50 Q75,70 50,75 T10,50\" fill=\"#6B7280\" stroke=\"#1F2937\" stroke-width=\"2\" fill-opacity=\"0.7\"/></svg>",
+    "shapePoints": [
+      { "x": 10, "y": 50 },
+      { "x": 25, "y": 30 },
+      { "x": 50, "y": 25 },
+      { "x": 75, "y": 30 },
+      { "x": 90, "y": 50 },
+      { "x": 75, "y": 70 },
+      { "x": 50, "y": 75 },
+      { "x": 25, "y": 70 }
+    ]
+  },
+  {
+    "id": "load-cable-spool",
+    "category": "cable_spool",
+    "weight": 28,
+    "dims": { "length": 5, "width": 5, "height": 5 },
+    "cg": { "chainage": 2.5, "offset": 0 },
+    "securing": "chains",
+    "dynamicFactor": 1.4,
+    "envelopeRef": "oversize",
+    "notes": "High voltage cable spool",
+    "shapeSvg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"50\" cy=\"50\" r=\"40\" fill=\"#6B7280\" stroke=\"#1F2937\" stroke-width=\"2\" fill-opacity=\"0.7\"/><circle cx=\"50\" cy=\"50\" r=\"15\" fill=\"none\" stroke=\"#1F2937\" stroke-width=\"2\"/><line x1=\"10\" y1=\"50\" x2=\"90\" y2=\"50\" stroke=\"#1F2937\" stroke-width=\"1\"/><line x1=\"50\" y1=\"10\" x2=\"50\" y2=\"90\" stroke=\"#1F2937\" stroke-width=\"1\"/></svg>"
+  },
+  {
+    "id": "load-tank",
+    "category": "tank",
+    "weight": 22,
+    "dims": { "length": 8, "width": 3, "height": 3 },
+    "cg": { "chainage": 4, "offset": 0 },
+    "securing": "chains_and_straps",
+    "dynamicFactor": 1.3,
+    "envelopeRef": "standard",
+    "notes": "Industrial pressure vessel",
+    "shapeSvg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"10\" y=\"30\" width=\"80\" height=\"40\" fill=\"#6B7280\" stroke=\"#1F2937\" stroke-width=\"2\" fill-opacity=\"0.7\" rx=\"20\" ry=\"20\"/></svg>"
+  },
+  {
+    "id": "load-excavator",
+    "category": "excavator",
+    "weight": 35,
+    "dims": { "length": 10, "width": 3.5, "height": 3.8 },
+    "cg": { "chainage": 5, "offset": 0.3 },
+    "securing": "chains",
+    "dynamicFactor": 1.5,
+    "envelopeRef": "oversize",
+    "notes": "Tracked excavator with bucket arm",
+    "shapeSvg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"20\" y=\"40\" width=\"60\" height=\"30\" fill=\"#6B7280\" stroke=\"#1F2937\" stroke-width=\"2\" fill-opacity=\"0.7\"/><rect x=\"10\" y=\"70\" width=\"80\" height=\"10\" fill=\"#6B7280\" stroke=\"#1F2937\" stroke-width=\"2\" fill-opacity=\"0.7\"/><path d=\"M70,40 L90,20 L95,25 L75,45 Z\" fill=\"#6B7280\" stroke=\"#1F2937\" stroke-width=\"2\" fill-opacity=\"0.7\"/></svg>"
+  },
+  {
+    "id": "load-tower-section",
+    "category": "tower_section",
+    "weight": 42,
+    "dims": { "length": 25, "width": 4.5, "height": 4.5 },
+    "cg": { "chainage": 12.5, "offset": 0 },
+    "securing": "custom",
+    "dynamicFactor": 1.6,
+    "envelopeRef": "oversize",
+    "notes": "Wind turbine tower section",
+    "shapeSvg": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M10,60 L10,40 C10,20 30,20 50,20 C70,20 90,20 90,40 L90,60 C90,80 70,80 50,80 C30,80 10,80 10,60 Z\" fill=\"#6B7280\" stroke=\"#1F2937\" stroke-width=\"2\" fill-opacity=\"0.7\"/></svg>"
+  }
+]
